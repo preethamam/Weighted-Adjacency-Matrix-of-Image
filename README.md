@@ -1,10 +1,10 @@
 # Weighted adjacency matrix of an image
-Creates a weighted adjacency matrix from a energy matrix for an image. Average, similarity and dissimilarity between the nodes i,j can be computed. If a custom energy matrix is provided, the same functions can be used to fill the adjacency matrix with edge weights.
+Creates a weighted adjacency matrix from a energy matrix (E) for an image. Average, similarity and dissimilarity between the nodes i,j can be computed. If a custom energy matrix is provided, the same functions can be used to fill the adjacency matrix with edge weights.
 
 # Graphs table
 | Type | Images |
 | --- | --- |
-| 4-noded unidirection | ![fig_4noded_1](https://user-images.githubusercontent.com/28588878/160408425-68133377-68a6-414d-a1fd-862e0ffcbc46.png) |
+| 4-noded unidirection | ![fig_4noded_1](https://user-images.githubusercontent.com/28588878/160409573-835e2813-2adf-479c-bd65-2d718ee2cf92.png) |
 | 4-noded bidirection | ![fig_4noded_2](https://user-images.githubusercontent.com/28588878/160408470-9e7767aa-7e24-4fa0-ad9b-6ecfa4cc8d2d.png) |
 | 8-noded six direction | ![fig_6noded_shortpath](https://user-images.githubusercontent.com/28588878/160408605-0f680020-40c3-4450-9c78-214ca07e458f.png) |
 | 8-noded unidirection | ![fig_8noded_1](https://user-images.githubusercontent.com/28588878/160408735-ed4fd455-f0e1-4522-9735-91ad0702f9ae.png) |
@@ -32,3 +32,5 @@ weight_type = 'Average';            % Average (E(i), E(j)) / 2
 # Known issues
 1. Sometimes `plot(G)` or `plot(G,'Layout','force')` produces strange looking graphs.
 
+# Adaptation of open source 
+Some of the MATLAB adjacency functions are adapted from the [Stack Overflow](https://stackoverflow.com/questions/3277541/construct-adjacency-matrix-in-matlab) and heavily improved.
