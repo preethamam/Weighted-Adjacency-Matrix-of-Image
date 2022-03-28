@@ -8,6 +8,24 @@ weight_type = 'Average';            % Average (E(i), E(j)) / 2
                                     % Similarity (E(i) - E(j)) 
                                     % Dissimilarity 1 / (E(i) - E(j)).
                                     % Where E is the energy at node i, j.
+% Examples
+% edgeDirection = 1;
+% noded = 4;
+% 
+% edgeDirection = 2;
+% noded = 4;
+% 
+% edgeDirection = 1;
+% noded = 6;
+% 
+% edgeDirection = 2;
+% noded = 6;
+% 
+% edgeDirection = 1;
+% noded = 8;
+% 
+% edgeDirection = 2;
+% noded = 8;
 
 % Image size [height x width]
 imSize = [h w];
