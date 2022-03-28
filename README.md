@@ -34,3 +34,6 @@ weight_type = 'Average';            % Average (E(i), E(j)) / 2
 
 # Adaptation of open source 
 Some of the MATLAB adjacency functions are adapted from the [Stack Overflow](https://stackoverflow.com/questions/3277541/construct-adjacency-matrix-in-matlab).
+
+# MATLAB Central
+[![View Weighted adjacency matrix of an image using energy function on File Exchange](https://www.mathworks.com/matlabcentral/images/matlab-file-exchange.svg)](https://www.mathworks.com/matlabcentral/fileexchange/108934-weighted-adjacency-matrix-of-an-image-using-energy-function)
