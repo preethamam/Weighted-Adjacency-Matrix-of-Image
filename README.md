@@ -16,7 +16,7 @@ MATLAB <br />
 # Run command
 Please use the `demo.m` to run the program.
 
-Change the hyper parameters accordingly if needed. But it is not required though.
+Change the hyper parameters accordingly if needed.
 ```
 % Inputs
 h = 3; w = 6;                       % Image size [height x width]
