@@ -16,10 +16,10 @@ weight_type = 'Average';            % Average (E(i), E(j)) / 2
 % noded = 4;
 % 
 % edgeDirection = 1;
-% noded = 6;
+% noded = 6;  % direction
 % 
 % edgeDirection = 2;
-% noded = 6;
+% noded = 6;  % direction
 % 
 % edgeDirection = 1;
 % noded = 8;
