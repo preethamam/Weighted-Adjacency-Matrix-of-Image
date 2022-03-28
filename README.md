@@ -33,4 +33,4 @@ weight_type = 'Average';            % Average (E(i), E(j)) / 2
 1. Sometimes `plot(G)` or `plot(G,'Layout','force')` produces strange looking graphs.
 
 # Adaptation of open source 
-Some of the MATLAB adjacency functions are adapted from the [Stack Overflow](https://stackoverflow.com/questions/3277541/construct-adjacency-matrix-in-matlab) and heavily improved.
+Some of the MATLAB adjacency functions are adapted from the [Stack Overflow](https://stackoverflow.com/questions/3277541/construct-adjacency-matrix-in-matlab).
