@@ -22,8 +22,7 @@ function adjWeights = computeWeightsAdjMat(adj,energy,weight_type,edgeDirection)
 %                                 Similarity (E(i) - E(j)) 
 %                                 Dissimilarity 1 / (E(i) - E(j)).
 %                                 Where E is the energy at node i, j.
-%           edgeDirection       - Edge direction 1 - uni | 2 - bi
-%                                 
+%           edgeDirection       - Edge direction 1 - uni | 2 - bi                  
 %
 %
 % 
@@ -67,9 +66,6 @@ if nargin == 2
     %-----------------------
     % Weight type
     weight_type = 'Similarity';
-
-    % Edge direction
-    edgeDirection = 2;
 end
 
 if nargin == 3
@@ -96,22 +92,28 @@ switch weight_type
 end
 weights = weights';
 
+% Stack up the values
+if edgeDirection == 2
+    allRow = [row; col];
+    allCol = [col; row];
+    allWeights = [weights; weights];
+else
+    allRow = row;
+    allCol = col;
+    allWeights = weights;
+end
+
 % Find the linear indices 
-ind = sub2ind(size(adj),row,col);
+ind = sub2ind(size(adj),allRow,allCol);
 
 % Find the upper traiangular elements
-adjCopyUpperTri = triu(adj);
+adjCopyUpperTri = adj;
 
 % Fill the edge weights to the upper trianhular adjacency matirx
-adjCopyUpperTri(ind) = weights;
+adjCopyUpperTri(ind) = allWeights;
 
 % Depending on the nodes, fill and get final adjacency edge weights
 adjWeights = adjCopyUpperTri;
-
-% Adjacency matrix
-if edgeDirection == 2
-    adjWeights = adjWeights + adjWeights.';                           % Add the matrix to a transposed copy of
-end                                                                   % itself to make it symmetric
 
 end
 

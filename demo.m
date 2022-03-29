@@ -2,8 +2,8 @@ clc; close all; clear;
 
 % Inputs
 h = 3; w = 6;                       % Image size [height x width]
-edgeDirection = 1;                  % Edge direction 1 - uni | 2 - bi
-noded = 4;                          % Nodes 4-noded, 6-direction, 8-noded (pixels)
+edgeDirection = 2;                  % Edge direction 1 - uni | 2 - bi
+noded = 8;                          % Nodes 4-noded, 6-direction, 8-noded (pixels)
 weight_type = 'Similarity';         % Average (E(i), E(j)) / 2 
                                     % Similarity (E(i) - E(j)) 
                                     % Dissimilarity 1 / (E(i) - E(j)).
