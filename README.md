@@ -26,6 +26,7 @@ weight_type = 'Average';            % Average (E(i), E(j)) / 2
                                     % Similarity (E(i) - E(j)) 
                                     % Dissimilarity 1 / (E(i) - E(j)).
                                     % Where E is the energy at node i, j.
+flowDirection = 'col_wise';         % 'row_wise' | 'col_wise'
 ```
 
 
