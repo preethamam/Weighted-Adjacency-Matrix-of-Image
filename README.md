@@ -38,3 +38,5 @@ Some of the MATLAB adjacency functions are adapted from the [Stack Overflow](htt
 
 # MATLAB Central
 [![View Weighted adjacency matrix of an image using energy function on File Exchange](https://www.mathworks.com/matlabcentral/images/matlab-file-exchange.svg)](https://www.mathworks.com/matlabcentral/fileexchange/108934-weighted-adjacency-matrix-of-an-image-using-energy-function)
+
+Please rate and provide feedback for the further improvements.
