@@ -1,4 +1,6 @@
 # Weighted adjacency matrix of an image
+[![View Weighted adjacency matrix of an image using energy function on File Exchange](https://www.mathworks.com/matlabcentral/images/matlab-file-exchange.svg)](https://www.mathworks.com/matlabcentral/fileexchange/108934-weighted-adjacency-matrix-of-an-image-using-energy-function) [![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=preethamam/Weighted-Adjacency-Matrix-of-Image)
+
 Creates a weighted adjacency matrix from a energy matrix (E) for an image. Average, similarity and dissimilarity between the nodes i,j can be computed. If a custom energy matrix is provided, the same functions can be used to fill the adjacency matrix with edge weights.
 
 # Graphs table
@@ -36,7 +38,5 @@ flowDirection = 'col_wise';         % 'row_wise' | 'col_wise'
 # Adaptation of open source 
 Some of the MATLAB adjacency functions are adapted from the [Stack Overflow](https://stackoverflow.com/questions/3277541/construct-adjacency-matrix-in-matlab).
 
-# MATLAB Central
-[![View Weighted adjacency matrix of an image using energy function on File Exchange](https://www.mathworks.com/matlabcentral/images/matlab-file-exchange.svg)](https://www.mathworks.com/matlabcentral/fileexchange/108934-weighted-adjacency-matrix-of-an-image-using-energy-function)
-
+# Feedback
 Please rate and provide feedback for the further improvements.
