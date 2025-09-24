@@ -6,11 +6,11 @@ Creates a weighted adjacency matrix from a energy matrix (E) for an image. Avera
 # Graphs table
 | Type | Images |
 | --- | --- |
-| 4-noded unidirection | ![fig_4noded_1](https://user-images.githubusercontent.com/28588878/160409573-835e2813-2adf-479c-bd65-2d718ee2cf92.png) |
-| 4-noded bidirection | ![fig_4noded_2](https://user-images.githubusercontent.com/28588878/160408470-9e7767aa-7e24-4fa0-ad9b-6ecfa4cc8d2d.png) |
-| 8-noded, six edges, vertical and cross directions | ![fig_6noded_shortpath](https://user-images.githubusercontent.com/28588878/160408605-0f680020-40c3-4450-9c78-214ca07e458f.png) |
-| 8-noded, eight edges, unidirection | ![fig_8noded_1](https://user-images.githubusercontent.com/28588878/160408735-ed4fd455-f0e1-4522-9735-91ad0702f9ae.png) |
-| 8-noded, eight edges, bidirection | ![fig_8noded_2](https://user-images.githubusercontent.com/28588878/160408768-3636179c-34ee-4445-87dd-02c434a05e36.png) |
+| 4-noded unidirection | ![fig_4noded_1](assets/fig_4noded_1.png) |
+| 4-noded bidirection | ![fig_4noded_2](assets/fig_4noded_2.png) |
+| 8-noded, six edges, vertical and cross directions | ![fig_6noded_shortpath](assets/fig_6noded_1.png) |
+| 8-noded, eight edges, unidirection | ![fig_8noded_1](assets/fig_8noded_1.png) |
+| 8-noded, eight edges, bidirection | ![fig_8noded_2](assets/fig_8noded_2.png) |
 
 # Requirements
 MATLAB <br />
@@ -40,3 +40,4 @@ Some of the MATLAB adjacency functions are adapted from the [Stack Overflow](htt
 
 # Feedback
 Please rate and provide feedback for the further improvements.
+
