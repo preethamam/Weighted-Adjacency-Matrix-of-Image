@@ -4,12 +4,12 @@ clc; close all; clear;
 h = 6; w = 6;                       % Image size [height x width]
 edgeDirection = 2;                  % Edge direction 1 - uni | 2 - bi
 noded = 8;                          % Nodes 4-noded, 6-direction, 8-noded (pixels)
-weight_type = 'Dissimilarity';         % Average (E(i), E(j)) / 2 
+weight_type = 'Dissimilarity';      % Average (E(i), E(j)) / 2 
                                     % Similarity (E(i) - E(j)) 
                                     % Dissimilarity 1 / (E(i) - E(j)).
                                     % Where E is the energy at node i, j.
 flowDirection = 'row_wise';         % 'row_wise' | 'col_wise'
-useMATLABDefaultGplot = 0;
+useMATLABDefaultGplot = 0;          % Use MATLAB's dafult graph plotting with spring
 graphType = 2;                      % '1 - undirected' (node = 4, 8) | '2 - directed' (node = 6)
 
 % Examples
