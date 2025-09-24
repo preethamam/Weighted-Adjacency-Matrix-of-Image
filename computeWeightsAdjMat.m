@@ -88,7 +88,9 @@ switch weight_type
     case "Similarity"
         weights = abs(energyFlat(row) - energyFlat(col));    
     case "Dissimilarity"
-        weights = 1 ./ abs(energyFlat(row) - energyFlat(col));
+        d = abs(energyFlat(row) - energyFlat(col));
+        d(d==0) = eps;         % avoid division by zero
+        weights = 1 ./ d;
 end
 weights = weights';
 
@@ -116,6 +118,3 @@ adjCopyUpperTri(ind) = allWeights;
 adjWeights = adjCopyUpperTri;
 
 end
-
-
-    
